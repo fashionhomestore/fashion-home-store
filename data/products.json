@@ -2,11 +2,11 @@
   "products": [
     {
       "id": 1,
-      "name": "Par dessus",
-      "sub": "Par dessus",
-      "cat": "chemise",
+      "name": "Van's",
+      "sub": "Van's",
+      "cat": "chaussure",
       "price": 45000,
-      "img": "/images/uploads/378237548_712125880929560_7776875278763513554_n.jpg",
+      "img": "/images/uploads/img_1269.jpg",
       "tag": "Best-seller"
     },
     {
