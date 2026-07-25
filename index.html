@@ -39,8 +39,7 @@
   .burger span{width:24px;height:1px;background:var(--blanc-casse);}
 
   .hero{height:100vh;min-height:640px;position:relative;display:flex;align-items:flex-end;
-    background:linear-gradient(180deg, rgba(11,11,12,0.15) 0%, rgba(11,11,12,0.75) 100%),
-      url('https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;}
+    background-color:#333;background-size:cover;background-position:center;background-repeat:no-repeat;}
   .hero-inner{padding:0 40px 90px;max-width:1280px;margin:0 auto;width:100%;color:var(--blanc-casse);}
   .eyebrow{font-size:12px;letter-spacing:5px;text-transform:uppercase;color:var(--gris-clair);margin-bottom:22px;opacity:0;animation:fadeUp .9s ease forwards .2s;}
   .hero h1{font-size:clamp(40px,7vw,96px);line-height:0.98;font-weight:400;max-width:820px;opacity:0;animation:fadeUp .9s ease forwards .4s;}
@@ -347,6 +346,17 @@
   function formatPrice(n){
     return new Intl.NumberFormat('fr-FR').format(n) + ' FCFA';
   }
+
+  fetch('/data/settings.json')
+    .then(r => r.json())
+    .then(settings => {
+      if(settings.hero_image){
+        document.querySelector('.hero').style.backgroundImage =
+          `linear-gradient(180deg, rgba(11,11,12,0.15) 0%, rgba(11,11,12,0.75) 100%), url('${settings.hero_image}')`;
+      }
+    })
+    .catch(() => {});
+
   let products = [];
 
   const grid = document.getElementById('product-grid');
