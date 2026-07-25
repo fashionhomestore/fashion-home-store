@@ -8,6 +8,15 @@ public_folder: "/images/uploads"
 locale: "fr"
 
 collections:
+  - name: "reglages"
+    label: "Réglages du site"
+    files:
+      - file: "data/settings.json"
+        label: "Page d'accueil"
+        name: "settings"
+        fields:
+          - {label: "Photo de couverture (page d'accueil)", name: "hero_image", widget: "image"}
+
   - name: "produits"
     label: "Catalogue Produits"
     files:
