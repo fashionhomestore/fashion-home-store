@@ -373,6 +373,16 @@
           <div class="card-info">
             <h3>${p.name}</h3>
             <p style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris-pierre);margin-bottom:10px;">${p.sub}</p>
+            ${(p.tailles && p.tailles.length) ? `
+              <label style="font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gris-pierre);display:block;margin-bottom:4px;">Taille</label>
+              <select id="taille-${p.id}" style="width:100%;padding:8px 10px;border:1px solid rgba(0,0,0,.2);background:#fff;font-family:'Jost';font-size:13px;margin-bottom:10px;">
+                ${p.tailles.map(t=>`<option value="${t}">${t}</option>`).join('')}
+              </select>` : ''}
+            ${(p.couleurs && p.couleurs.length) ? `
+              <label style="font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gris-pierre);display:block;margin-bottom:4px;">Couleur</label>
+              <select id="couleur-${p.id}" style="width:100%;padding:8px 10px;border:1px solid rgba(0,0,0,.2);background:#fff;font-family:'Jost';font-size:13px;margin-bottom:14px;">
+                ${p.couleurs.map(c=>`<option value="${c}">${c}</option>`).join('')}
+              </select>` : ''}
             <div class="card-meta">
               <span class="price">${formatPrice(p.price)}</span>
             </div>
@@ -403,7 +413,13 @@
   let cart = [];
   function addToCart(id){
     const p = products.find(x=>x.id===id);
-    cart.push(p);
+    const tailleEl = document.getElementById(`taille-${id}`);
+    const couleurEl = document.getElementById(`couleur-${id}`);
+    cart.push({
+      ...p,
+      tailleChoisie: tailleEl ? tailleEl.value : null,
+      couleurChoisie: couleurEl ? couleurEl.value : null
+    });
     updateCart();
     openCart();
   }
@@ -423,6 +439,7 @@
           <img src="${p.img}" alt="${p.name}">
           <div class="drawer-item-info">
             <h4>${p.name}</h4>
+            ${(p.tailleChoisie || p.couleurChoisie) ? `<p>${[p.tailleChoisie ? 'Taille '+p.tailleChoisie : '', p.couleurChoisie].filter(Boolean).join(' · ')}</p>` : ''}
             <p>${formatPrice(p.price)}</p>
             <button class="drawer-remove" onclick="removeFromCart(${i})">Retirer</button>
           </div>
@@ -478,7 +495,7 @@
     const tel = document.getElementById('of-tel').value;
     const adresse = document.getElementById('of-adresse').value;
     const total = cart.reduce((s,p)=>s+p.price,0);
-    const detail = cart.map(p => `${p.name} — ${formatPrice(p.price)}`).join(' | ');
+    const detail = cart.map(p => `${p.name}${p.tailleChoisie ? ' (Taille '+p.tailleChoisie+')' : ''}${p.couleurChoisie ? ' (Couleur '+p.couleurChoisie+')' : ''} — ${formatPrice(p.price)}`).join(' | ');
 
     const formData = new URLSearchParams();
     formData.append('form-name','commande');
