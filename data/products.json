@@ -119,8 +119,8 @@
     },
     {
       "sub": "Jogging",
-      "img": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?q=80&w=800&auto=format&fit=crop",
-      "price": 25500,
+      "img": "/images/uploads/img_4153.jpeg",
+      "price": 60000,
       "tailles": [
         "30",
         "31",
@@ -158,8 +158,8 @@
     },
     {
       "sub": "Pantalon tissu",
-      "img": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop",
-      "price": 38500,
+      "img": "/images/uploads/img_1719.jpeg",
+      "price": 35000,
       "tailles": [
         "30",
         "31",
