@@ -106,9 +106,9 @@
       "id": 5
     },
     {
-      "sub": "Chemise",
-      "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop",
-      "price": 32000,
+      "sub": "Polo",
+      "img": "/images/uploads/img_4367.jpeg",
+      "price": 35000,
       "tailles": [
         "XS",
         "S",
@@ -118,12 +118,12 @@
         "2XL",
         "3XL"
       ],
-      "name": "Chemise Popeline Grise",
+      "name": "Polo",
       "couleurs": [
-        "Noir",
-        "Gris"
+        "Blanc",
+        "Rose"
       ],
-      "cat": "chemise",
+      "cat": "polo",
       "tag": "Best-seller",
       "id": 6
     },
