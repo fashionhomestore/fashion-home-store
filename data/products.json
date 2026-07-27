@@ -43,9 +43,9 @@
       "id": 2
     },
     {
-      "sub": "Dokers",
-      "img": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=800&auto=format&fit=crop",
-      "price": 31500,
+      "sub": "Jeans",
+      "img": "/images/uploads/img_4425.jpeg",
+      "price": 60000,
       "tailles": [
         "30",
         "32",
@@ -54,19 +54,19 @@
         "38",
         "40"
       ],
-      "name": "Pantalon Dokers Classique",
+      "name": "Jeans Hermes",
       "couleurs": [
-        "Noir",
-        "Gris"
+        "Bleu",
+        "Noir"
       ],
       "cat": "pantalon",
       "tag": "",
       "id": 3
     },
     {
-      "sub": "Jogging",
-      "img": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?q=80&w=800&auto=format&fit=crop",
-      "price": 25500,
+      "sub": "Chemise",
+      "img": "/images/uploads/img_4475.jpeg",
+      "price": 135000,
       "tailles": [
         "30",
         "32",
@@ -75,19 +75,19 @@
         "38",
         "40"
       ],
-      "name": "Jogging Confort Premium",
+      "name": "Par dessus + chemise ",
       "couleurs": [
-        "Noir",
-        "Gris"
+        "Bleu nuit",
+        "Nuit"
       ],
-      "cat": "pantalon",
+      "cat": "chemise",
       "tag": "",
       "id": 4
     },
     {
-      "sub": "Pantalon tissu",
-      "img": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop",
-      "price": 38500,
+      "sub": "Jeans",
+      "img": "/images/uploads/img_4423.jpeg",
+      "price": 60000,
       "tailles": [
         "30",
         "32",
@@ -96,10 +96,10 @@
         "38",
         "40"
       ],
-      "name": "Pantalon Tissu Élégant",
+      "name": "Jeans Lorro Piana ",
       "couleurs": [
         "Noir",
-        "Gris"
+        "Bleu"
       ],
       "cat": "pantalon",
       "tag": "",
