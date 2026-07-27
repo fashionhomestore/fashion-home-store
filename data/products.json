@@ -869,8 +869,8 @@
     },
     {
       "sub": "Ensemble",
-      "img": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=800&auto=format&fit=crop",
-      "price": 51500,
+      "img": "/images/uploads/img_3353.jpeg",
+      "price": 350000,
       "tailles": [
         "S",
         "M",
@@ -895,19 +895,8 @@
         "44",
         "45"
       ],
-      "name": "Tenue d'Ensemble Sport Gris",
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ],
+      "name": "Tenue d'Ensemble",
+      "variantes": [],
       "cat": "ensemble",
       "tag": "Nouveau",
       "id": 29
