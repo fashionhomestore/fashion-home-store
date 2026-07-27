@@ -48,3 +48,15 @@ collections:
               - {label: "Prix (FCFA)", name: "price", widget: "number"}
               - {label: "Photo du produit", name: "img", widget: "image"}
               - {label: "Étiquette (optionnel: Nouveau / Best-seller)", name: "tag", widget: "string", required: false}
+              - label: "Tailles disponibles"
+                name: "tailles"
+                widget: "list"
+                required: false
+                field: {label: "Taille", name: "taille", widget: "string"}
+                hint: "Ex: S, M, L, XL — ou 40, 41, 42 pour les chaussures"
+              - label: "Couleurs disponibles"
+                name: "couleurs"
+                widget: "list"
+                required: false
+                field: {label: "Couleur", name: "couleur", widget: "string"}
+                hint: "Ex: Noir, Gris, Blanc"
