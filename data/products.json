@@ -1,13 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Jean Coupe Droite",
-      "sub": "Jeans",
-      "cat": "pantalon",
-      "price": 29500,
-      "img": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller",
+      "sub": "Short",
+      "img": "/images/uploads/img_4385.jpeg",
+      "price": 20000,
       "tailles": [
         "30",
         "31",
@@ -26,6 +22,7 @@
         "44",
         "45"
       ],
+      "name": "Short",
       "variantes": [
         {
           "couleur": "Noir",
@@ -37,16 +34,15 @@
           "hex": "#8b857d",
           "photo": ""
         }
-      ]
+      ],
+      "cat": "accessoire",
+      "tag": "Best-seller",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Pantalon Cargo Utilitaire",
       "sub": "Cargo",
-      "cat": "pantalon",
-      "price": 34000,
-      "img": "https://images.unsplash.com/photo-1584865288642-42078afe6942?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau",
+      "img": "/images/uploads/img_4070.jpeg",
+      "price": 35000,
       "tailles": [
         "30",
         "31",
@@ -65,6 +61,7 @@
         "44",
         "45"
       ],
+      "name": "Pantalon Cargo",
       "variantes": [
         {
           "couleur": "Noir",
@@ -76,16 +73,15 @@
           "hex": "#8b857d",
           "photo": ""
         }
-      ]
+      ],
+      "cat": "pantalon",
+      "tag": "Nouveau",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Pantalon Dokers Classique",
       "sub": "Dokers",
-      "cat": "pantalon",
-      "price": 31500,
-      "img": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
+      "img": "/images/uploads/img_2490.jpeg",
+      "price": 35000,
       "tailles": [
         "30",
         "31",
@@ -104,6 +100,7 @@
         "44",
         "45"
       ],
+      "name": "Pantalon Dokers Classique",
       "variantes": [
         {
           "couleur": "Noir",
@@ -115,562 +112,34 @@
           "hex": "#8b857d",
           "photo": ""
         }
-      ]
+      ],
+      "cat": "pantalon",
+      "tag": "",
+      "id": 3
     },
     {
-      "id": 4,
-      "name": "Jogging Confort Premium",
       "sub": "Jogging",
-      "cat": "pantalon",
-      "price": 25500,
       "img": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Pantalon Tissu Élégant",
-      "sub": "Pantalon tissu",
-      "cat": "pantalon",
-      "price": 38500,
-      "img": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Chemise Popeline Grise",
-      "sub": "Chemise",
-      "cat": "chemise",
-      "price": 32000,
-      "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Chemise Oxford Noire",
-      "sub": "Chemise",
-      "cat": "chemise",
-      "price": 35500,
-      "img": "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Sneakers Basses Grises",
-      "sub": "Sneakers",
-      "cat": "chaussure",
-      "price": 45000,
-      "img": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Mocassins Cuir Noir",
-      "sub": "Mocassins",
-      "cat": "chaussure",
-      "price": 58500,
-      "img": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Souliers Habillés Anthracite",
-      "sub": "Souliers",
-      "cat": "chaussure",
-      "price": 65000,
-      "img": "https://images.unsplash.com/photo-1614253429340-98120bd6d753?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Baskets Montantes Noires",
-      "sub": "Baskets",
-      "cat": "chaussure",
-      "price": 49000,
-      "img": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Sandales Confort Grises",
-      "sub": "Sandales",
-      "cat": "chaussure",
-      "price": 23000,
-      "img": "https://images.unsplash.com/photo-1603487742131-4160ec999306?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Tenis Sport Bicolore",
-      "sub": "Tenis",
-      "cat": "chaussure",
-      "price": 42500,
-      "img": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Ceinture Cuir Réversible",
-      "sub": "Ceinture",
-      "cat": "accessoire",
-      "price": 19000,
-      "img": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "Taille unique"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "name": "Lunettes de Soleil Carrées",
-      "sub": "Lunettes",
-      "cat": "accessoire",
-      "price": 21000,
-      "img": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau",
-      "tailles": [
-        "Taille unique"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "name": "Parfum Signature Homme",
-      "sub": "Parfum",
-      "cat": "accessoire",
-      "price": 38500,
-      "img": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller",
-      "tailles": [
-        "Taille unique"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "name": "Sac Besace Cuir Gris",
-      "sub": "Sac",
-      "cat": "accessoire",
-      "price": 51500,
-      "img": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "Taille unique"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "name": "Cravate Soie Unie",
-      "sub": "Cravate",
-      "cat": "accessoire",
-      "price": 16500,
-      "img": "https://images.unsplash.com/photo-1589756823695-278bc923f962?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "Taille unique"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "name": "Casquette Coton Noire",
-      "sub": "Casquette",
-      "cat": "accessoire",
-      "price": 12500,
-      "img": "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "Taille unique"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Box Cadeau Essentiels",
-      "sub": "Box",
-      "cat": "accessoire",
-      "price": 29500,
-      "img": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau",
-      "tailles": [
-        "Taille unique"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "name": "Polo Piqué Classique",
-      "sub": "Polo",
-      "cat": "polo",
       "price": 25500,
-      "img": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller",
       "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
       ],
+      "name": "Jogging Confort Premium",
       "variantes": [
         {
           "couleur": "Noir",
@@ -682,140 +151,34 @@
           "hex": "#8b857d",
           "photo": ""
         }
-      ]
-    },
-    {
-      "id": 22,
-      "name": "Polo Manches Courtes Gris",
-      "sub": "Polo",
-      "cat": "polo",
-      "price": 24000,
-      "img": "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=800&auto=format&fit=crop",
+      ],
+      "cat": "pantalon",
       "tag": "",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
+      "id": 4
     },
     {
-      "id": 23,
-      "name": "T-shirt Coton Basique Noir",
-      "sub": "T-shirt",
-      "cat": "tshirt",
-      "price": 12500,
-      "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "name": "T-shirt Col Rond Gris",
-      "sub": "T-shirt",
-      "cat": "tshirt",
-      "price": 12500,
-      "img": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Pull Col Rond Gris Perle",
-      "sub": "Pull",
-      "cat": "pull",
-      "price": 36000,
-      "img": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Pull Col Roulé Noir",
-      "sub": "Pull",
-      "cat": "pull",
+      "sub": "Pantalon tissu",
+      "img": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop",
       "price": 38500,
-      "img": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau",
       "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
       ],
+      "name": "Pantalon Tissu Élégant",
       "variantes": [
         {
           "couleur": "Noir",
@@ -827,16 +190,44 @@
           "hex": "#8b857d",
           "photo": ""
         }
-      ]
+      ],
+      "cat": "pantalon",
+      "tag": "",
+      "id": 5
     },
     {
-      "id": 27,
-      "name": "Blouzon Bomber Noir",
-      "sub": "Blouzon",
-      "cat": "blouzon",
-      "price": 65000,
-      "img": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
+      "sub": "Chemise",
+      "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop",
+      "price": 32000,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "Chemise Popeline Grise",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "chemise",
       "tag": "Best-seller",
+      "id": 6
+    },
+    {
+      "sub": "Chemise",
+      "img": "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?q=80&w=800&auto=format&fit=crop",
+      "price": 35500,
       "tailles": [
         "S",
         "M",
@@ -845,6 +236,7 @@
         "2XL",
         "3XL"
       ],
+      "name": "Chemise Oxford Noire",
       "variantes": [
         {
           "couleur": "Noir",
@@ -856,90 +248,649 @@
           "hex": "#8b857d",
           "photo": ""
         }
-      ]
-    },
-    {
-      "id": 28,
-      "name": "Blouzon Léger Gris",
-      "sub": "Blouzon",
-      "cat": "blouzon",
-      "price": 58500,
-      "img": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop",
-      "tag": "",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
       ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Tenue d'Ensemble Sport Gris",
-      "sub": "Ensemble",
-      "cat": "ensemble",
-      "price": 51500,
-      "img": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=800&auto=format&fit=crop",
+      "cat": "chemise",
       "tag": "Nouveau",
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL",
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ]
+      "id": 7
     },
     {
-      "id": 30,
-      "name": "Tenue d'Ensemble Chic Noir",
-      "sub": "Ensemble",
-      "cat": "ensemble",
-      "price": 84500,
-      "img": "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800&auto=format&fit=crop",
+      "sub": "Sneakers",
+      "img": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop",
+      "price": 45000,
+      "tailles": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "name": "Sneakers Basses Grises",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "chaussure",
+      "tag": "Best-seller",
+      "id": 8
+    },
+    {
+      "sub": "Mocassins",
+      "img": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=800&auto=format&fit=crop",
+      "price": 58500,
+      "tailles": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "name": "Mocassins Cuir Noir",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "chaussure",
       "tag": "",
+      "id": 9
+    },
+    {
+      "sub": "Souliers",
+      "img": "https://images.unsplash.com/photo-1614253429340-98120bd6d753?q=80&w=800&auto=format&fit=crop",
+      "price": 65000,
+      "tailles": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "name": "Souliers Habillés Anthracite",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "chaussure",
+      "tag": "",
+      "id": 10
+    },
+    {
+      "sub": "Baskets",
+      "img": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=800&auto=format&fit=crop",
+      "price": 49000,
+      "tailles": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "name": "Baskets Montantes Noires",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "chaussure",
+      "tag": "Nouveau",
+      "id": 11
+    },
+    {
+      "sub": "Sandales",
+      "img": "https://images.unsplash.com/photo-1603487742131-4160ec999306?q=80&w=800&auto=format&fit=crop",
+      "price": 23000,
+      "tailles": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "name": "Sandales Confort Grises",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "chaussure",
+      "tag": "",
+      "id": 12
+    },
+    {
+      "sub": "Tenis",
+      "img": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop",
+      "price": 42500,
+      "tailles": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "name": "Tenis Sport Bicolore",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "chaussure",
+      "tag": "",
+      "id": 13
+    },
+    {
+      "sub": "Ceinture",
+      "img": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=800&auto=format&fit=crop",
+      "price": 19000,
+      "tailles": [
+        "Taille unique"
+      ],
+      "name": "Ceinture Cuir Réversible",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "accessoire",
+      "tag": "",
+      "id": 14
+    },
+    {
+      "sub": "Lunettes",
+      "img": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=800&auto=format&fit=crop",
+      "price": 21000,
+      "tailles": [
+        "Taille unique"
+      ],
+      "name": "Lunettes de Soleil Carrées",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "accessoire",
+      "tag": "Nouveau",
+      "id": 15
+    },
+    {
+      "sub": "Parfum",
+      "img": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop",
+      "price": 38500,
+      "tailles": [
+        "Taille unique"
+      ],
+      "name": "Parfum Signature Homme",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "accessoire",
+      "tag": "Best-seller",
+      "id": 16
+    },
+    {
+      "sub": "Sac",
+      "img": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
+      "price": 51500,
+      "tailles": [
+        "Taille unique"
+      ],
+      "name": "Sac Besace Cuir Gris",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "accessoire",
+      "tag": "",
+      "id": 17
+    },
+    {
+      "sub": "Cravate",
+      "img": "https://images.unsplash.com/photo-1589756823695-278bc923f962?q=80&w=800&auto=format&fit=crop",
+      "price": 16500,
+      "tailles": [
+        "Taille unique"
+      ],
+      "name": "Cravate Soie Unie",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "accessoire",
+      "tag": "",
+      "id": 18
+    },
+    {
+      "sub": "Casquette",
+      "img": "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=800&auto=format&fit=crop",
+      "price": 12500,
+      "tailles": [
+        "Taille unique"
+      ],
+      "name": "Casquette Coton Noire",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "accessoire",
+      "tag": "",
+      "id": 19
+    },
+    {
+      "sub": "Box",
+      "img": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800&auto=format&fit=crop",
+      "price": 29500,
+      "tailles": [
+        "Taille unique"
+      ],
+      "name": "Box Cadeau Essentiels",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "accessoire",
+      "tag": "Nouveau",
+      "id": 20
+    },
+    {
+      "sub": "Polo",
+      "img": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?q=80&w=800&auto=format&fit=crop",
+      "price": 25500,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "Polo Piqué Classique",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "polo",
+      "tag": "Best-seller",
+      "id": 21
+    },
+    {
+      "sub": "Polo",
+      "img": "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=800&auto=format&fit=crop",
+      "price": 24000,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "Polo Manches Courtes Gris",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "polo",
+      "tag": "",
+      "id": 22
+    },
+    {
+      "sub": "T-shirt",
+      "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop",
+      "price": 12500,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "T-shirt Coton Basique Noir",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "tshirt",
+      "tag": "Best-seller",
+      "id": 23
+    },
+    {
+      "sub": "T-shirt",
+      "img": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
+      "price": 12500,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "T-shirt Col Rond Gris",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "tshirt",
+      "tag": "",
+      "id": 24
+    },
+    {
+      "sub": "Pull",
+      "img": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=800&auto=format&fit=crop",
+      "price": 36000,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "Pull Col Rond Gris Perle",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "pull",
+      "tag": "",
+      "id": 25
+    },
+    {
+      "sub": "Pull",
+      "img": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop",
+      "price": 38500,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "Pull Col Roulé Noir",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "pull",
+      "tag": "Nouveau",
+      "id": 26
+    },
+    {
+      "sub": "Blouzon",
+      "img": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
+      "price": 65000,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "Blouzon Bomber Noir",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "blouzon",
+      "tag": "Best-seller",
+      "id": 27
+    },
+    {
+      "sub": "Blouzon",
+      "img": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop",
+      "price": 58500,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "name": "Blouzon Léger Gris",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "blouzon",
+      "tag": "",
+      "id": 28
+    },
+    {
+      "sub": "Ensemble",
+      "img": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=800&auto=format&fit=crop",
+      "price": 51500,
       "tailles": [
         "S",
         "M",
@@ -964,6 +915,7 @@
         "44",
         "45"
       ],
+      "name": "Tenue d'Ensemble Sport Gris",
       "variantes": [
         {
           "couleur": "Noir",
@@ -975,7 +927,55 @@
           "hex": "#8b857d",
           "photo": ""
         }
-      ]
+      ],
+      "cat": "ensemble",
+      "tag": "Nouveau",
+      "id": 29
+    },
+    {
+      "sub": "Ensemble",
+      "img": "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800&auto=format&fit=crop",
+      "price": 84500,
+      "tailles": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "name": "Tenue d'Ensemble Chic Noir",
+      "variantes": [
+        {
+          "couleur": "Noir",
+          "hex": "#0b0b0c",
+          "photo": ""
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8b857d",
+          "photo": ""
+        }
+      ],
+      "cat": "ensemble",
+      "tag": "",
+      "id": 30
     }
   ]
 }
