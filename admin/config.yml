@@ -54,9 +54,13 @@ collections:
                 required: false
                 field: {label: "Taille", name: "taille", widget: "string"}
                 hint: "Ex: S, M, L, XL — ou 40, 41, 42 pour les chaussures"
-              - label: "Couleurs disponibles"
-                name: "couleurs"
+              - label: "Variantes de couleur"
+                name: "variantes"
                 widget: "list"
                 required: false
-                field: {label: "Couleur", name: "couleur", widget: "string"}
-                hint: "Ex: Noir, Gris, Blanc"
+                summary: "{{fields.couleur}}"
+                hint: "Ajoutez une variante par couleur disponible pour cet article"
+                fields:
+                  - {label: "Nom de la couleur", name: "couleur", widget: "string", hint: "Ex: Bleu marine, Gris anthracite, Blanc cassé..."}
+                  - {label: "Teinte exacte (palette)", name: "hex", widget: "color", required: false, hint: "Choisissez la couleur précise dans la palette — elle s'affichera comme pastille sur le site"}
+                  - {label: "Photo spécifique à cette couleur", name: "photo", widget: "image", required: false, hint: "Facultatif — sinon la photo principale du produit sera utilisée"}
