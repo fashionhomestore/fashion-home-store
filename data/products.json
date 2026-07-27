@@ -2,12 +2,24 @@
   "products": [
     {
       "id": 1,
-      "name": "Van's",
-      "sub": "Van's",
-      "cat": "chaussure",
-      "price": 45000,
-      "img": "/images/uploads/img_1269.jpg",
-      "tag": "Best-seller"
+      "name": "Jean Coupe Droite",
+      "sub": "Jeans",
+      "cat": "pantalon",
+      "price": 29500,
+      "img": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop",
+      "tag": "Best-seller",
+      "tailles": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 2,
@@ -16,7 +28,19 @@
       "cat": "pantalon",
       "price": 34000,
       "img": "https://images.unsplash.com/photo-1584865288642-42078afe6942?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau"
+      "tag": "Nouveau",
+      "tailles": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 3,
@@ -25,7 +49,19 @@
       "cat": "pantalon",
       "price": 31500,
       "img": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 4,
@@ -34,7 +70,19 @@
       "cat": "pantalon",
       "price": 25500,
       "img": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 5,
@@ -43,7 +91,19 @@
       "cat": "pantalon",
       "price": 38500,
       "img": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 6,
@@ -52,7 +112,20 @@
       "cat": "chemise",
       "price": 32000,
       "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller"
+      "tag": "Best-seller",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 7,
@@ -61,7 +134,20 @@
       "cat": "chemise",
       "price": 35500,
       "img": "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau"
+      "tag": "Nouveau",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 8,
@@ -70,7 +156,18 @@
       "cat": "chaussure",
       "price": 45000,
       "img": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller"
+      "tag": "Best-seller",
+      "tailles": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 9,
@@ -79,7 +176,18 @@
       "cat": "chaussure",
       "price": 58500,
       "img": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 10,
@@ -88,7 +196,18 @@
       "cat": "chaussure",
       "price": 65000,
       "img": "https://images.unsplash.com/photo-1614253429340-98120bd6d753?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 11,
@@ -97,7 +216,18 @@
       "cat": "chaussure",
       "price": 49000,
       "img": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau"
+      "tag": "Nouveau",
+      "tailles": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 12,
@@ -106,7 +236,18 @@
       "cat": "chaussure",
       "price": 23000,
       "img": "https://images.unsplash.com/photo-1603487742131-4160ec999306?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 13,
@@ -115,7 +256,18 @@
       "cat": "chaussure",
       "price": 42500,
       "img": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 14,
@@ -124,7 +276,14 @@
       "cat": "accessoire",
       "price": 19000,
       "img": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "Taille unique"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 15,
@@ -133,7 +292,14 @@
       "cat": "accessoire",
       "price": 21000,
       "img": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau"
+      "tag": "Nouveau",
+      "tailles": [
+        "Taille unique"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 16,
@@ -142,7 +308,14 @@
       "cat": "accessoire",
       "price": 38500,
       "img": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller"
+      "tag": "Best-seller",
+      "tailles": [
+        "Taille unique"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 17,
@@ -151,7 +324,14 @@
       "cat": "accessoire",
       "price": 51500,
       "img": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "Taille unique"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 18,
@@ -160,7 +340,14 @@
       "cat": "accessoire",
       "price": 16500,
       "img": "https://images.unsplash.com/photo-1589756823695-278bc923f962?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "Taille unique"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 19,
@@ -169,7 +356,14 @@
       "cat": "accessoire",
       "price": 12500,
       "img": "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "Taille unique"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 20,
@@ -178,7 +372,14 @@
       "cat": "accessoire",
       "price": 29500,
       "img": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau"
+      "tag": "Nouveau",
+      "tailles": [
+        "Taille unique"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 21,
@@ -187,7 +388,20 @@
       "cat": "polo",
       "price": 25500,
       "img": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller"
+      "tag": "Best-seller",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 22,
@@ -196,7 +410,20 @@
       "cat": "polo",
       "price": 24000,
       "img": "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 23,
@@ -205,7 +432,20 @@
       "cat": "tshirt",
       "price": 12500,
       "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller"
+      "tag": "Best-seller",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 24,
@@ -214,7 +454,20 @@
       "cat": "tshirt",
       "price": 12500,
       "img": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 25,
@@ -223,7 +476,20 @@
       "cat": "pull",
       "price": 36000,
       "img": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 26,
@@ -232,7 +498,20 @@
       "cat": "pull",
       "price": 38500,
       "img": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau"
+      "tag": "Nouveau",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 27,
@@ -241,7 +520,20 @@
       "cat": "blouzon",
       "price": 65000,
       "img": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop",
-      "tag": "Best-seller"
+      "tag": "Best-seller",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 28,
@@ -250,7 +542,20 @@
       "cat": "blouzon",
       "price": 58500,
       "img": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 29,
@@ -259,7 +564,20 @@
       "cat": "ensemble",
       "price": 51500,
       "img": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=800&auto=format&fit=crop",
-      "tag": "Nouveau"
+      "tag": "Nouveau",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     },
     {
       "id": 30,
@@ -268,7 +586,20 @@
       "cat": "ensemble",
       "price": 84500,
       "img": "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800&auto=format&fit=crop",
-      "tag": ""
+      "tag": "",
+      "tailles": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "couleurs": [
+        "Noir",
+        "Gris"
+      ]
     }
   ]
 }
