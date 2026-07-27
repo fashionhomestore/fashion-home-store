@@ -284,8 +284,8 @@
     },
     {
       "sub": "Mocassins",
-      "img": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=800&auto=format&fit=crop",
-      "price": 58500,
+      "img": "/images/uploads/9211afde-d736-4141-bf91-61146c9c7e6b.jpeg",
+      "price": 420000,
       "tailles": [
         "30",
         "31",
@@ -304,7 +304,7 @@
         "44",
         "45"
       ],
-      "name": "Mocassins Cuir Noir",
+      "name": "Sneakers Berluti",
       "variantes": [
         {
           "couleur": "Noir",
@@ -323,8 +323,8 @@
     },
     {
       "sub": "Souliers",
-      "img": "https://images.unsplash.com/photo-1614253429340-98120bd6d753?q=80&w=800&auto=format&fit=crop",
-      "price": 65000,
+      "img": "/images/uploads/img_4837.jpeg",
+      "price": 150000,
       "tailles": [
         "30",
         "31",
@@ -343,16 +343,11 @@
         "44",
         "45"
       ],
-      "name": "Souliers Habillés Anthracite",
+      "name": "Souliers ",
       "variantes": [
         {
           "couleur": "Noir",
           "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
           "photo": ""
         }
       ],
