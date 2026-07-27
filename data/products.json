@@ -151,8 +151,8 @@
     },
     {
       "sub": "Sneakers",
-      "img": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800&auto=format&fit=crop",
-      "price": 45000,
+      "img": "/images/uploads/img_3777.jpeg",
+      "price": 60000,
       "tailles": [
         "40",
         "41",
@@ -160,19 +160,18 @@
         "43",
         "44"
       ],
-      "name": "Sneakers Basses Grises",
+      "name": "Sneakers Jordan",
       "couleurs": [
-        "Noir",
-        "Gris"
+        "Vert"
       ],
       "cat": "chaussure",
       "tag": "Best-seller",
       "id": 8
     },
     {
-      "sub": "Mocassins",
-      "img": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?q=80&w=800&auto=format&fit=crop",
-      "price": 58500,
+      "sub": "Polo",
+      "img": "/images/uploads/img_4393.jpeg",
+      "price": 35000,
       "tailles": [
         "40",
         "41",
@@ -180,12 +179,12 @@
         "43",
         "44"
       ],
-      "name": "Mocassins Cuir Noir",
+      "name": "Polo ",
       "couleurs": [
-        "Noir",
-        "Gris"
+        "Bleu nuit",
+        "Blanc"
       ],
-      "cat": "chaussure",
+      "cat": "polo",
       "tag": "",
       "id": 9
     },
