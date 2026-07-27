@@ -196,9 +196,9 @@
       "id": 5
     },
     {
-      "sub": "Chemise",
-      "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop",
-      "price": 32000,
+      "sub": "T-shirt ",
+      "img": "/images/uploads/d3600ec1-98ab-4258-8839-5875f0430263.jpeg",
+      "price": 20000,
       "tailles": [
         "S",
         "M",
@@ -207,7 +207,7 @@
         "2XL",
         "3XL"
       ],
-      "name": "Chemise Popeline Gris",
+      "name": "T-shirt Hermes",
       "variantes": [
         {
           "couleur": "Noir",
@@ -220,14 +220,14 @@
           "photo": ""
         }
       ],
-      "cat": "chemise",
+      "cat": "tshirt",
       "tag": "Best-seller",
       "id": 6
     },
     {
-      "sub": "Chemise",
-      "img": "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?q=80&w=800&auto=format&fit=crop",
-      "price": 35500,
+      "sub": "T-shirt ",
+      "img": "/images/uploads/img_3903.jpeg",
+      "price": 20000,
       "tailles": [
         "S",
         "M",
@@ -236,20 +236,15 @@
         "2XL",
         "3XL"
       ],
-      "name": "Chemise Oxford Noire",
+      "name": "T-shirt LV",
       "variantes": [
         {
           "couleur": "Noir",
           "hex": "#0b0b0c",
           "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
         }
       ],
-      "cat": "chemise",
+      "cat": "tshirt",
       "tag": "Nouveau",
       "id": 7
     },
