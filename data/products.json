@@ -357,8 +357,8 @@
     },
     {
       "sub": "Baskets",
-      "img": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=800&auto=format&fit=crop",
-      "price": 49000,
+      "img": "/images/uploads/img_2552.jpeg",
+      "price": 60000,
       "tailles": [
         "30",
         "31",
@@ -377,7 +377,7 @@
         "44",
         "45"
       ],
-      "name": "Baskets Montantes Noires",
+      "name": "Baskets Noire",
       "variantes": [
         {
           "couleur": "Noir",
