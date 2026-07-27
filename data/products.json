@@ -1,9 +1,9 @@
 {
   "products": [
     {
-      "sub": "Jeans",
-      "img": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop",
-      "price": 29500,
+      "sub": "Chemise",
+      "img": "/images/uploads/img_4364.jpeg",
+      "price": 135000,
       "tailles": [
         "30",
         "32",
@@ -12,19 +12,19 @@
         "38",
         "40"
       ],
-      "name": "Jean Coupe Droit",
+      "name": "Par dessus + Chemise ",
       "couleurs": [
-        "Noir",
+        "Marron",
         "Gris"
       ],
-      "cat": "pantalon",
+      "cat": "chemise",
       "tag": "Best-seller",
       "id": 1
     },
     {
-      "sub": "Cargo",
-      "img": "https://images.unsplash.com/photo-1584865288642-42078afe6942?q=80&w=800&auto=format&fit=crop",
-      "price": 34000,
+      "sub": "Chemise",
+      "img": "/images/uploads/img_4361.jpeg",
+      "price": 135000,
       "tailles": [
         "30",
         "32",
@@ -33,12 +33,12 @@
         "38",
         "40"
       ],
-      "name": "Pantalon Cargo Utilitaire",
+      "name": "Par dessus + chemise ",
       "couleurs": [
-        "Noir",
-        "Gris"
+        "Gris",
+        "Marron"
       ],
-      "cat": "pantalon",
+      "cat": "chemise",
       "tag": "Nouveau",
       "id": 2
     },
