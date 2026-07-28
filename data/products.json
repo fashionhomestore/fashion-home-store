@@ -839,9 +839,9 @@
       "id": 27
     },
     {
-      "sub": "Blouzon",
-      "img": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=800&auto=format&fit=crop",
-      "price": 58500,
+      "sub": "Par-dessus + Chemise ",
+      "img": "/images/uploads/img_4486.jpeg",
+      "price": 135000,
       "tailles": [
         "S",
         "M",
@@ -850,11 +850,11 @@
         "2XL",
         "3XL"
       ],
-      "name": "Blouzon Léger Gris",
+      "name": "Par-dessus + Chemise ",
       "variantes": [
         {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
+          "couleur": "Marron",
+          "hex": "#71420f",
           "photo": ""
         },
         {
@@ -863,7 +863,7 @@
           "photo": ""
         }
       ],
-      "cat": "blouzon",
+      "cat": "chemise",
       "tag": "",
       "id": 28
     },
