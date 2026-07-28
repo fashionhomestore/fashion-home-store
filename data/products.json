@@ -723,18 +723,11 @@
       "id": 23
     },
     {
-      "sub": "T-shirt",
-      "img": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
-      "price": 12500,
-      "tailles": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "2XL",
-        "3XL"
-      ],
-      "name": "T-shirt Col Rond Gris",
+      "sub": "Casquette",
+      "img": "/images/uploads/img_4172.jpeg",
+      "price": 20000,
+      "tailles": [],
+      "name": "Casquette Ralph Lauren",
       "variantes": [
         {
           "couleur": "Noir",
@@ -742,12 +735,12 @@
           "photo": ""
         },
         {
-          "couleur": "Gris",
-          "hex": "#8b857d",
+          "couleur": "Blanc",
+          "hex": "#ffffff",
           "photo": ""
         }
       ],
-      "cat": "tshirt",
+      "cat": "accessoire",
       "tag": "",
       "id": 24
     },
