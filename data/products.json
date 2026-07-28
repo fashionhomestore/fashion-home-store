@@ -694,9 +694,9 @@
       "id": 22
     },
     {
-      "sub": "T-shirt",
-      "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop",
-      "price": 12500,
+      "sub": "Pulls",
+      "img": "/images/uploads/e1752e46-ab1a-4fd0-b554-5df69aa0b696.jpeg",
+      "price": 35000,
       "tailles": [
         "S",
         "M",
@@ -705,20 +705,9 @@
         "2XL",
         "3XL"
       ],
-      "name": "T-shirt Coton Basique Noir",
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ],
-      "cat": "tshirt",
+      "name": "Pulls classique",
+      "variantes": [],
+      "cat": "pull",
       "tag": "Best-seller",
       "id": 23
     },
