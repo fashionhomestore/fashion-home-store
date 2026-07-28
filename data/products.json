@@ -903,8 +903,8 @@
     },
     {
       "sub": "Ensemble",
-      "img": "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=800&auto=format&fit=crop",
-      "price": 84500,
+      "img": "/images/uploads/img_3341.jpeg",
+      "price": 350000,
       "tailles": [
         "S",
         "M",
@@ -929,19 +929,8 @@
         "44",
         "45"
       ],
-      "name": "Tenue d'Ensemble Chic Noir",
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ],
+      "name": "Tableau 2 ",
+      "variantes": [],
       "cat": "ensemble",
       "tag": "",
       "id": 30
