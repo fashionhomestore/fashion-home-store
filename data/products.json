@@ -636,9 +636,9 @@
       "id": 20
     },
     {
-      "sub": "Polo",
-      "img": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?q=80&w=800&auto=format&fit=crop",
-      "price": 25500,
+      "sub": "Sur chemise + Chemise",
+      "img": "/images/uploads/img_4127.jpeg",
+      "price": 135000,
       "tailles": [
         "S",
         "M",
@@ -647,20 +647,15 @@
         "2XL",
         "3XL"
       ],
-      "name": "Polo Piqué Classique",
+      "name": "Sur chemise + Chemise",
       "variantes": [
         {
           "couleur": "Noir",
           "hex": "#0b0b0c",
           "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
         }
       ],
-      "cat": "polo",
+      "cat": "chemise",
       "tag": "Best-seller",
       "id": 21
     },
