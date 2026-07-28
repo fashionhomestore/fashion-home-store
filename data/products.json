@@ -665,9 +665,9 @@
       "id": 21
     },
     {
-      "sub": "Polo",
-      "img": "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=800&auto=format&fit=crop",
-      "price": 24000,
+      "sub": "Short",
+      "img": "/images/uploads/img_4383.jpeg",
+      "price": 20000,
       "tailles": [
         "S",
         "M",
@@ -676,20 +676,9 @@
         "2XL",
         "3XL"
       ],
-      "name": "Polo Manches Courtes Gris",
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ],
-      "cat": "polo",
+      "name": "Short ",
+      "variantes": [],
+      "cat": "accessoire",
       "tag": "",
       "id": 22
     },
