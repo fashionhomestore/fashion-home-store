@@ -781,9 +781,9 @@
       "id": 25
     },
     {
-      "sub": "Pull",
-      "img": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop",
-      "price": 38500,
+      "sub": "Tableau 3",
+      "img": "/images/uploads/img_4327.jpeg",
+      "price": 350000,
       "tailles": [
         "S",
         "M",
@@ -792,20 +792,9 @@
         "2XL",
         "3XL"
       ],
-      "name": "Pull Col Roulé Noir",
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ],
-      "cat": "pull",
+      "name": "Tableau 3",
+      "variantes": [],
+      "cat": "ensemble",
       "tag": "Nouveau",
       "id": 26
     },
