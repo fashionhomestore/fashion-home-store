@@ -612,17 +612,17 @@
       "id": 19
     },
     {
-      "sub": "Box",
-      "img": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800&auto=format&fit=crop",
-      "price": 29500,
+      "sub": "Berluti",
+      "img": "/images/uploads/fdb89966-bbc2-46bf-994c-7bd94bb175dc.jpeg",
+      "price": 420000,
       "tailles": [
         "Taille unique"
       ],
-      "name": "Box Cadeau Essentiels",
+      "name": "Sneakers berluti",
       "variantes": [
         {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
+          "couleur": "Marron",
+          "hex": "#954a0c",
           "photo": ""
         },
         {
@@ -631,7 +631,7 @@
           "photo": ""
         }
       ],
-      "cat": "accessoire",
+      "cat": "chaussure",
       "tag": "Nouveau",
       "id": 20
     },
