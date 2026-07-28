@@ -752,9 +752,9 @@
       "id": 24
     },
     {
-      "sub": "Pull",
-      "img": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?q=80&w=800&auto=format&fit=crop",
-      "price": 36000,
+      "sub": "Lin",
+      "img": "/images/uploads/temp_image_4c96b3f2-1426-41c0-a60e-f6c3b0d27815.webp",
+      "price": 70,
       "tailles": [
         "S",
         "M",
@@ -763,20 +763,25 @@
         "2XL",
         "3XL"
       ],
-      "name": "Pull Col Rond Gris Perle",
+      "name": "Chemise Lin ",
       "variantes": [
         {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
+          "couleur": "Vert",
+          "hex": "#0c430c",
           "photo": ""
         },
         {
           "couleur": "Gris",
           "hex": "#8b857d",
-          "photo": ""
+          "photo": "/images/uploads/temp_image_2536f207-89e1-428a-a8db-e97400c71fb8.webp"
+        },
+        {
+          "couleur": "Saumon ",
+          "hex": "#df1b68",
+          "photo": "/images/uploads/temp_image_4c96b3f2-1426-41c0-a60e-f6c3b0d27815.webp"
         }
       ],
-      "cat": "pull",
+      "cat": "chemise",
       "tag": "",
       "id": 25
     },
