@@ -870,6 +870,30 @@
       "cat": "ensemble",
       "tag": "",
       "id": 30
+    },
+    {
+      "id": 31,
+      "name": "Sur chemise - Chemise",
+      "sub": "chemise",
+      "cat": "chemise",
+      "img": "/images/uploads/img_4364-2.heic",
+      "tailles": [
+        "M",
+        "XL",
+        "XXL"
+      ],
+      "variantes": [
+        {
+          "couleur": "Marron",
+          "hex": "#a05a20",
+          "photo": "/images/uploads/img_4364.jpeg"
+        },
+        {
+          "couleur": "Gris",
+          "hex": "#8c8585",
+          "photo": "/images/uploads/img_4361-2.heic"
+        }
+      ]
     }
   ]
 }
