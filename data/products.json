@@ -711,23 +711,7 @@
         "3XL"
       ],
       "name": "Blazer + BERLUTI",
-      "variantes": [
-        {
-          "couleur": "Vert",
-          "hex": "#0c430c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": "/images/uploads/temp_image_2536f207-89e1-428a-a8db-e97400c71fb8.webp"
-        },
-        {
-          "couleur": "Saumon ",
-          "hex": "#df1b68",
-          "photo": "/images/uploads/temp_image_4c96b3f2-1426-41c0-a60e-f6c3b0d27815.webp"
-        }
-      ],
+      "variantes": [],
       "cat": "chemise",
       "tag": "",
       "id": 25
