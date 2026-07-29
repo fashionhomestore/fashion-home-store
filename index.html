@@ -78,6 +78,12 @@
   .card-meta .price{font-size:14px;color:var(--gris-fonce);letter-spacing:.5px;}
   .card-meta .colors{display:flex;gap:6px;}
   .dot{width:13px;height:13px;border-radius:50%;border:1px solid var(--ligne);}
+  .card-sub{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris-pierre);margin-bottom:12px;}
+  .card-label{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gris-pierre);margin-bottom:6px;}
+  .taille-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;}
+  .taille-tag{border:1px solid rgba(0,0,0,.2);padding:4px 10px;font-size:12px;color:var(--noir);}
+  .couleur-dots{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;}
+  .couleur-dot{width:20px;height:20px;border-radius:50%;border:1px solid rgba(0,0,0,.15);display:inline-block;}
 
   .story{background:var(--noir);color:var(--blanc-casse);}
   .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
@@ -88,8 +94,8 @@
   .story-text p{font-size:16px;line-height:1.85;color:var(--gris-clair);font-weight:300;margin-bottom:20px;max-width:460px;}
   .story-signature{margin-top:36px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;letter-spacing:1px;color:var(--blanc-casse);border-top:1px solid var(--ligne);padding-top:22px;max-width:460px;}
 
-  .strip{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:2px;background:var(--ligne);}
-  .strip-item{height:520px;overflow:hidden;position:relative;}
+  .strip{display:flex;flex-wrap:wrap;gap:2px;background:var(--ligne);}
+  .strip-item{flex:1 1 320px;height:520px;overflow:hidden;position:relative;min-width:260px;}
   .strip-item img{width:100%;height:100%;object-fit:cover;filter:grayscale(20%);transition:transform .8s;}
   .strip-item:hover img{transform:scale(1.05);}
   .strip-item .cap{position:absolute;bottom:24px;left:24px;color:#fff;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;text-shadow:0 2px 12px rgba(0,0,0,.5);}
@@ -153,17 +159,28 @@
   @media (max-width:900px){
     .nav-links{display:none;}
     .burger{display:flex;}
-    .grid{grid-template-columns:repeat(2,1fr);}
+    .grid{grid-template-columns:repeat(3,1fr);gap:1px;}
+    .card-img{height:200px;}
+    .card-info{padding:12px 6px 20px;}
+    .card-info h3{font-size:14px;line-height:1.2;}
+    .card-sub{font-size:9px;margin-bottom:8px;}
+    .card-label{font-size:8px;margin-bottom:4px;}
+    .taille-tags{gap:3px;margin-bottom:8px;}
+    .taille-tag{padding:2px 6px;font-size:9px;}
+    .couleur-dots{gap:4px;margin-bottom:8px;}
+    .couleur-dot{width:14px;height:14px;}
+    .card-meta .price{font-size:12px;}
+    .quick-add{font-size:9px;padding:8px 4px;letter-spacing:1px;}
     .story-grid{grid-template-columns:1fr;gap:40px;}
     .story-img{height:360px;}
-    .strip{grid-template-columns:1fr;}
-    .strip-item{height:340px;}
+    .strip-item{height:280px;flex:1 1 45%;}
     .footer-grid{grid-template-columns:1fr 1fr;}
   }
   @media (max-width:560px){
     .wrap{padding:0 20px;}
     nav{padding:18px 20px;}
-    .grid{grid-template-columns:1fr;}
+    .grid{grid-template-columns:repeat(3,1fr);gap:1px;}
+    .card-img{height:150px;}
     .footer-grid{grid-template-columns:1fr;}
     .nl-form{flex-direction:column;}
     .nl-form input{border-right:1px solid var(--noir);border-bottom:none;}
@@ -245,11 +262,7 @@
   </div>
 </section>
 
-<div class="strip">
-  <div class="strip-item"><img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?q=80&w=1000&auto=format&fit=crop" alt="Look 1"><span class="cap">Silhouette No.1</span></div>
-  <div class="strip-item"><img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=800&auto=format&fit=crop" alt="Look 2"><span class="cap">Silhouette No.2</span></div>
-  <div class="strip-item"><img src="https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=800&auto=format&fit=crop" alt="Look 3"><span class="cap">Silhouette No.3</span></div>
-</div>
+<div class="strip" id="lookbook-strip"></div>
 
 <section class="newsletter">
   <div class="wrap">
@@ -354,6 +367,18 @@
         document.querySelector('.hero').style.backgroundImage =
           `linear-gradient(180deg, rgba(11,11,12,0.15) 0%, rgba(11,11,12,0.75) 100%), url('${settings.hero_image}')`;
       }
+      const stripEl = document.getElementById('lookbook-strip');
+      if(settings.lookbook && settings.lookbook.length){
+        stripEl.innerHTML = settings.lookbook.map(item => `
+          <div class="strip-item">
+            <img src="${item.image}" alt="${item.legende || 'Fashion Home Store'}">
+            ${item.legende ? `<span class="cap">${item.legende}</span>` : ''}
+          </div>
+        `).join('');
+        stripEl.style.display = 'flex';
+      } else {
+        stripEl.style.display = 'none';
+      }
     })
     .catch(() => {});
 
@@ -374,16 +399,16 @@
           </div>
           <div class="card-info">
             <h3>${p.name}</h3>
-            <p style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris-pierre);margin-bottom:12px;">${p.sub}</p>
+            <p class="card-sub">${p.sub}</p>
             ${(p.tailles && p.tailles.length) ? `
-              <p style="font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gris-pierre);margin-bottom:6px;">Tailles disponibles</p>
-              <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;">
-                ${p.tailles.map(t=>`<span style="border:1px solid rgba(0,0,0,.2);padding:4px 10px;font-size:12px;color:var(--noir);">${t}</span>`).join('')}
+              <p class="card-label">Tailles disponibles</p>
+              <div class="taille-tags">
+                ${p.tailles.map(t=>`<span class="taille-tag">${t}</span>`).join('')}
               </div>` : ''}
             ${(p.variantes && p.variantes.length) ? `
-              <p style="font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--gris-pierre);margin-bottom:6px;">Couleurs disponibles</p>
-              <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
-                ${p.variantes.map(v=>`<span title="${v.couleur}" style="width:20px;height:20px;border-radius:50%;background:${v.hex || '#ccc'};border:1px solid rgba(0,0,0,.15);display:inline-block;"></span>`).join('')}
+              <p class="card-label">Couleurs disponibles</p>
+              <div class="couleur-dots">
+                ${p.variantes.map(v=>`<span class="couleur-dot" title="${v.couleur}" style="background:${v.hex || '#ccc'};"></span>`).join('')}
               </div>` : ''}
             <div class="card-meta">
               <span class="price">${formatPrice(p.price)}</span>
