@@ -16,6 +16,15 @@ collections:
         name: "settings"
         fields:
           - {label: "Photo de couverture (page d'accueil)", name: "hero_image", widget: "image"}
+          - label: "Galerie photos (bas de page)"
+            name: "lookbook"
+            widget: "list"
+            required: false
+            summary: "{{fields.legende}}"
+            hint: "Ajoutez, retirez ou réorganisez autant de photos que vous voulez. Elles s'affichent en bas de la page d'accueil."
+            fields:
+              - {label: "Photo", name: "image", widget: "image"}
+              - {label: "Légende (optionnel)", name: "legende", widget: "string", required: false}
 
   - name: "produits"
     label: "Catalogue Produits"
