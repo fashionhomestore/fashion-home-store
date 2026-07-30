@@ -871,6 +871,146 @@
         }
       ],
       "price": 135000
+    },
+    {
+      "sub": "Sneakers",
+      "img": "/images/uploads/img_5171.heic",
+      "price": 100000,
+      "tailles": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "name": "Sneakers Jordan",
+      "variantes": [],
+      "cat": "chaussure",
+      "tag": "Best-seller",
+      "id": 32
+    },
+    {
+      "id": 33,
+      "name": "Sneakers Jordan",
+      "sub": "Sneakers",
+      "cat": "chaussure",
+      "price": 134983,
+      "img": "/images/uploads/img_5168.heic",
+      "tailles": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "variantes": [
+        {
+          "couleur": "Gris",
+          "hex": "#908c8c"
+        }
+      ]
+    },
+    {
+      "sub": "Sneakers",
+      "img": "/images/uploads/img_5166-2.heic",
+      "price": 135000,
+      "tailles": [
+        "41",
+        "42",
+        "43"
+      ],
+      "name": "Sneakers Jordan",
+      "variantes": [
+        {
+          "couleur": "Rouge",
+          "hex": "#b10101"
+        }
+      ],
+      "cat": "chaussure",
+      "tag": "Nouveau",
+      "id": 34
+    },
+    {
+      "sub": "Sneakers",
+      "img": "/images/uploads/img_5165-2.heic",
+      "price": 135021,
+      "tailles": [
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "name": "Sneakers Jordan",
+      "variantes": [],
+      "cat": "chaussure",
+      "tag": "Optionnel",
+      "id": 35
+    },
+    {
+      "id": 36,
+      "name": "Sneakers Jordan",
+      "sub": "Sneakers",
+      "cat": "chaussure",
+      "img": "/images/uploads/img_5164-3.heic",
+      "price": 135000,
+      "tag": "Exceptionnel",
+      "tailles": [
+        "39",
+        "40",
+        "41"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Sneakers Jordan",
+      "sub": "Sneakers",
+      "cat": "chaussure",
+      "price": 135000,
+      "img": "/images/uploads/img_5162-2.heic",
+      "tailles": [
+        "40",
+        "41",
+        "42"
+      ],
+      "tag": "Nouveau"
+    },
+    {
+      "id": 37,
+      "name": "Sneakers Jordan",
+      "sub": "Sneakers",
+      "cat": "chaussure",
+      "price": 100000,
+      "img": "/images/uploads/img_5157-2.heic",
+      "tag": "Best-seller",
+      "tailles": [
+        "40",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Sneakers Jordan",
+      "sub": "Sneakers",
+      "cat": "chaussure",
+      "img": "/images/uploads/img_5155-3.heic",
+      "price": 100000,
+      "tailles": [
+        "   38",
+        "39",
+        "40"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Sneakers Jordan",
+      "sub": "Sneakers",
+      "cat": "chaussure",
+      "price": 135001,
+      "img": "/images/uploads/img_5152-2.heic",
+      "tailles": [
+        "41",
+        "42",
+        "43"
+      ]
     }
   ]
 }
