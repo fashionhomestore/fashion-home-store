@@ -429,9 +429,9 @@
       "id": 12
     },
     {
-      "sub": "Tenis",
-      "img": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=800&auto=format&fit=crop",
-      "price": 42500,
+      "sub": "Sneakers",
+      "img": "/images/uploads/img_5174.heic",
+      "price": 135000,
       "tailles": [
         "30",
         "31",
@@ -450,13 +450,8 @@
         "44",
         "45"
       ],
-      "name": "Tenis Sport Bicolore",
+      "name": "Sneakers Shoes",
       "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
         {
           "couleur": "Gris",
           "hex": "#8b857d",
@@ -468,17 +463,22 @@
       "id": 13
     },
     {
-      "sub": "Ceinture",
-      "img": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=800&auto=format&fit=crop",
-      "price": 19000,
+      "sub": "Sneakers",
+      "img": "/images/uploads/img_5177-2.heic",
+      "price": 135000,
       "tailles": [
-        "Taille unique"
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
-      "name": "Ceinture Cuir Réversible",
+      "name": "Sneakers Jordan",
       "variantes": [
         {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
+          "couleur": "Rouge",
+          "hex": "#d60000",
           "photo": ""
         },
         {
@@ -487,31 +487,25 @@
           "photo": ""
         }
       ],
-      "cat": "accessoire",
+      "cat": "chaussure",
       "tag": "",
       "id": 14
     },
     {
-      "sub": "Lunettes",
-      "img": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?q=80&w=800&auto=format&fit=crop",
-      "price": 21000,
+      "sub": "Sneakers",
+      "img": "/images/uploads/img_5181.heic",
+      "price": 135000,
       "tailles": [
-        "Taille unique"
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
       ],
-      "name": "Lunettes de Soleil Carrées",
-      "variantes": [
-        {
-          "couleur": "Noir",
-          "hex": "#0b0b0c",
-          "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
-        }
-      ],
-      "cat": "accessoire",
+      "name": "Sneakers Adidas",
+      "variantes": [],
+      "cat": "chaussure",
       "tag": "Nouveau",
       "id": 15
     },
