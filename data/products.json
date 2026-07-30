@@ -510,26 +510,24 @@
       "id": 15
     },
     {
-      "sub": "Parfum",
-      "img": "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=800&auto=format&fit=crop",
-      "price": 38500,
+      "sub": "Sneakers",
+      "img": "/images/uploads/img_5173-3.heic",
+      "price": 135000,
       "tailles": [
-        "Taille unique"
+        "40",
+        "41",
+        "41",
+        "42"
       ],
-      "name": "Parfum Signature Homme",
+      "name": "Sneakers Jordan",
       "variantes": [
         {
           "couleur": "Noir",
           "hex": "#0b0b0c",
           "photo": ""
-        },
-        {
-          "couleur": "Gris",
-          "hex": "#8b857d",
-          "photo": ""
         }
       ],
-      "cat": "accessoire",
+      "cat": "chaussure",
       "tag": "Best-seller",
       "id": 16
     },
