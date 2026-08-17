@@ -72,6 +72,8 @@
   .card-tag{position:absolute;top:16px;left:16px;background:var(--noir);color:var(--blanc-casse);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:6px 12px;}
   .quick-add{position:absolute;bottom:0;left:0;right:0;background:rgba(11,11,12,0.92);color:var(--blanc-casse);text-align:center;padding:14px;font-size:12px;letter-spacing:2px;text-transform:uppercase;transform:translateY(100%);transition:transform .35s ease;cursor:pointer;border:none;width:100%;}
   .card:hover .quick-add{transform:translateY(0);}
+  .quick-add-static{width:100%;margin-top:14px;padding:12px;background:var(--noir);color:var(--blanc-casse);border:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:opacity .3s;font-family:'Jost';}
+  .quick-add-static:hover{opacity:.85;}
   .card-info{padding:22px 4px 34px;}
   .card-info h3{font-size:21px;margin-bottom:6px;}
   .card-meta{display:flex;justify-content:space-between;align-items:center;}
@@ -171,6 +173,7 @@
     .couleur-dot{width:14px;height:14px;}
     .card-meta .price{font-size:12px;}
     .quick-add{font-size:9px;padding:8px 4px;letter-spacing:1px;}
+    .quick-add-static{font-size:9px;padding:9px 4px;margin-top:10px;letter-spacing:0.5px;}
     .story-grid{grid-template-columns:1fr;gap:40px;}
     .story-img{height:360px;}
     .strip-item{height:280px;flex:1 1 45%;}
@@ -402,6 +405,7 @@
             <div class="card-meta">
               <span class="price">${formatPrice(p.price)}</span>
             </div>
+            <button class="quick-add-static" onclick="addToCart(${p.id})">Ajouter au panier</button>
           </div>
         </div>
       `).join('');
