@@ -74,7 +74,7 @@
   .card:hover .quick-add{transform:translateY(0);}
   .quick-add-static{width:100%;margin-top:14px;padding:12px;background:var(--noir);color:var(--blanc-casse);border:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:opacity .3s;font-family:'Jost';}
   .quick-add-static:hover{opacity:.85;}
-  .card-info{padding:22px 4px 34px;}
+  .card-info{padding:10px 4px 20px;}
   .card-info h3{font-size:21px;margin-bottom:6px;}
   .card-meta{display:flex;justify-content:space-between;align-items:center;}
   .card-meta .price{font-size:14px;color:var(--gris-fonce);letter-spacing:.5px;}
@@ -163,7 +163,7 @@
     .burger{display:flex;}
     .grid{grid-template-columns:repeat(3,1fr);gap:1px;}
     .card-img{height:200px;}
-    .card-info{padding:12px 6px 20px;}
+    .card-info{padding:6px 6px 14px;}
     .card-info h3{font-size:14px;line-height:1.2;}
     .card-sub{font-size:9px;margin-bottom:8px;}
     .card-label{font-size:8px;margin-bottom:4px;}
@@ -328,33 +328,34 @@
 <div class="overlay" id="overlay" onclick="closeCart()"></div>
 <div class="drawer" id="drawer">
   <div class="drawer-head">
-    <h3 id="drawer-title">Votre panier</h3>
+    <h3 id="drawer-title">Votre commande</h3>
     <button onclick="closeCart()">×</button>
   </div>
 
-  <div id="drawer-items" class="drawer-items">
-    <p class="drawer-empty">Votre panier est vide pour l'instant.</p>
-  </div>
+  <form id="order-form" onsubmit="return submitOrder(event)" style="flex:1;display:flex;flex-direction:column;overflow:hidden;">
+    <div id="drawer-items" class="drawer-items">
+      <p class="drawer-empty">Votre panier est vide pour l'instant.</p>
+    </div>
 
-  <form class="order-form" id="order-form" onsubmit="return submitOrder(event)">
-    <div class="pay-note">Paiement à la livraison — vous réglez en espèces (ou mobile money) à la réception de votre commande.</div>
-    <label>Nom complet</label>
-    <input type="text" id="of-nom" required placeholder="Ex: Awa Koné">
-    <label>Téléphone</label>
-    <input type="tel" id="of-tel" required placeholder="Ex: 07 00 00 00 00">
-    <label>Adresse de livraison</label>
-    <textarea id="of-adresse" required placeholder="Quartier, commune, repère..."></textarea>
-    <span class="back-link" onclick="showCartView()">← Retour au panier</span>
+    <div style="padding:0 28px 18px;border-top:1px solid rgba(0,0,0,.08);">
+      <div class="pay-note" style="margin-top:16px;">Paiement à la livraison — vous réglez en espèces (ou mobile money) à la réception de votre commande.</div>
+      <label style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris-fonce);display:block;margin-top:14px;margin-bottom:6px;">Nom complet</label>
+      <input type="text" id="of-nom" required placeholder="Ex: Awa Koné" style="width:100%;padding:12px 14px;border:1px solid rgba(0,0,0,.2);background:#fff;font-family:'Jost';font-size:14px;">
+      <label style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris-fonce);display:block;margin-top:12px;margin-bottom:6px;">Téléphone</label>
+      <input type="tel" id="of-tel" required placeholder="Ex: 07 00 00 00 00" style="width:100%;padding:12px 14px;border:1px solid rgba(0,0,0,.2);background:#fff;font-family:'Jost';font-size:14px;">
+      <label style="font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gris-fonce);display:block;margin-top:12px;margin-bottom:6px;">Adresse de livraison</label>
+      <textarea id="of-adresse" required placeholder="Quartier, commune, repère..." style="width:100%;padding:12px 14px;border:1px solid rgba(0,0,0,.2);background:#fff;font-family:'Jost';font-size:14px;resize:vertical;min-height:60px;"></textarea>
+    </div>
+
+    <div class="drawer-foot">
+      <div class="drawer-total"><span>Total</span><span id="drawer-total">0 FCFA</span></div>
+      <button type="submit" class="checkout-btn" id="checkout-main-btn" disabled>Confirmer la commande</button>
+    </div>
   </form>
 
   <div class="success-msg" id="success-msg">
     <h4>Commande envoyée ✓</h4>
     <p>Merci ! Nous vous contactons très vite au numéro fourni pour confirmer la livraison et le paiement à réception.</p>
-  </div>
-
-  <div class="drawer-foot" id="drawer-foot">
-    <div class="drawer-total"><span>Total</span><span id="drawer-total">0 FCFA</span></div>
-    <button class="checkout-btn" id="checkout-main-btn" onclick="showOrderForm()">Passer commande</button>
   </div>
 </div>
 
@@ -453,14 +454,46 @@
     cart[index].couleurChoisie = valeur;
     updateCart();
   }
+  function addFromSelector(){
+    const sel = document.getElementById('add-more-select');
+    const id = parseInt(sel.value);
+    if(!id) return;
+    addToCart(id);
+  }
+  const labelsCategories = {
+    pantalon:"Pantalons", chemise:"Chemises", chaussure:"Chaussures", accessoire:"Accessoires",
+    polo:"Polo", tshirt:"T-shirt", pull:"Pulls", blouzon:"Blouzon", ensemble:"Tenue d'ensemble"
+  };
+  function buildAddSelector(){
+    const parCategorie = {};
+    products.forEach(p=>{
+      if(!parCategorie[p.cat]) parCategorie[p.cat] = [];
+      parCategorie[p.cat].push(p);
+    });
+    const options = Object.keys(parCategorie).map(cat => `
+      <optgroup label="${labelsCategories[cat] || cat}">
+        ${parCategorie[cat].map(p=>`<option value="${p.id}">${p.name} — ${formatPrice(p.price)}</option>`).join('')}
+      </optgroup>
+    `).join('');
+    return `
+      <div style="margin-top:${cart.length ? '10px' : '0'};padding-top:${cart.length ? '16px' : '0'};${cart.length ? 'border-top:1px solid rgba(0,0,0,.08);' : ''}">
+        <p class="card-label" style="margin-bottom:8px;">Ajouter un autre article</p>
+        <div style="display:flex;gap:8px;">
+          <select id="add-more-select" style="flex:1;padding:11px 12px;border:1px solid rgba(0,0,0,.2);background:#fff;font-family:'Jost';font-size:13px;">
+            <option value="">Choisir un article...</option>
+            ${options}
+          </select>
+          <button type="button" onclick="addFromSelector()" title="Ajouter"
+            style="width:44px;flex-shrink:0;background:var(--noir);color:#fff;border:none;font-size:20px;cursor:pointer;line-height:1;">+</button>
+        </div>
+      </div>
+    `;
+  }
   function updateCart(){
     document.getElementById('cart-count').textContent = cart.length;
     const itemsEl = document.getElementById('drawer-items');
-    if(cart.length===0){
-      itemsEl.innerHTML = '<p class="drawer-empty">Votre panier est vide pour l\'instant.</p>';
-      document.getElementById('checkout-main-btn').disabled = true;
-    } else {
-      itemsEl.innerHTML = cart.map((p,i)=>`
+
+    const itemsHtml = cart.length ? cart.map((p,i)=>`
         <div class="drawer-item" style="flex-direction:column;align-items:stretch;">
           <div style="display:flex;gap:14px;">
             <img src="${p.img}" alt="${p.name}">
@@ -483,48 +516,24 @@
               ${p.variantes.map(v=>`<option value="${v.couleur}" ${p.couleurChoisie===v.couleur ? 'selected' : ''}>${v.couleur}</option>`).join('')}
             </select>` : ''}
         </div>
-      `).join('');
-      document.getElementById('checkout-main-btn').disabled = false;
-    }
+      `).join('') : '<p class="drawer-empty">Votre panier est vide pour l\'instant.</p>';
+
+    itemsEl.innerHTML = itemsHtml + buildAddSelector();
+
+    document.getElementById('checkout-main-btn').disabled = cart.length === 0;
     const total = cart.reduce((s,p)=>s+p.price,0);
     document.getElementById('drawer-total').textContent = formatPrice(total);
   }
   function openCart(){
     document.getElementById('drawer').classList.add('open');
     document.getElementById('overlay').classList.add('open');
-    showCartView();
+    document.getElementById('order-form').style.display = 'flex';
+    document.getElementById('success-msg').classList.remove('active');
+    updateCart();
   }
   function closeCart(){
     document.getElementById('drawer').classList.remove('open');
     document.getElementById('overlay').classList.remove('open');
-  }
-
-  // ---- VUES DU PANIER : liste / formulaire / succès ----
-  function showCartView(){
-    document.getElementById('drawer-title').textContent = 'Votre panier';
-    document.getElementById('drawer-items').style.display = 'block';
-    document.getElementById('order-form').classList.remove('active');
-    document.getElementById('success-msg').classList.remove('active');
-    document.getElementById('drawer-foot').style.display = 'block';
-    document.getElementById('checkout-main-btn').textContent = 'Passer commande';
-    document.getElementById('checkout-main-btn').onclick = showOrderForm;
-  }
-  function showOrderForm(){
-    if(cart.length===0) return;
-    document.getElementById('drawer-title').textContent = 'Vos coordonnées';
-    document.getElementById('drawer-items').style.display = 'none';
-    document.getElementById('order-form').classList.add('active');
-    document.getElementById('success-msg').classList.remove('active');
-    document.getElementById('drawer-foot').style.display = 'block';
-    document.getElementById('checkout-main-btn').textContent = 'Confirmer la commande';
-    document.getElementById('checkout-main-btn').onclick = () => document.getElementById('order-form').requestSubmit();
-  }
-  function showSuccess(){
-    document.getElementById('drawer-title').textContent = 'Merci !';
-    document.getElementById('drawer-items').style.display = 'none';
-    document.getElementById('order-form').classList.remove('active');
-    document.getElementById('success-msg').classList.add('active');
-    document.getElementById('drawer-foot').style.display = 'none';
   }
 
   // ---- ENVOI DE LA COMMANDE (Netlify Forms -> e-mail automatique) ----
@@ -561,8 +570,10 @@
     })
     .then(() => {
       cart = [];
-      updateCart();
-      showSuccess();
+      document.getElementById('order-form').reset();
+      document.getElementById('order-form').style.display = 'none';
+      document.getElementById('success-msg').classList.add('active');
+      document.getElementById('drawer-title').textContent = 'Merci !';
     })
     .catch(() => {
       alert("Une erreur est survenue lors de l'envoi. Merci de réessayer ou de nous contacter directement.");
